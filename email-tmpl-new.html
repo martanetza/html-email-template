@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=yes"
+    />
+    <meta
+      name="format-detection"
+      content="telephone=no, date=no, address=no, email=no, url=no"
+    />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <link
+      href="/_next/static/media/3c5bbbbab6c84db9-s.p.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      href="/_next/static/media/4ce1f4675b471c3c-s.p.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      href="/_next/static/media/55c30213b4586176-s.p.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      href="/_next/static/media/7a5dd3b642e89821-s.p.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      href="/_next/static/media/7fa53a105685aa64-s.p.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <title>HTML Email Template</title>
+    <!--[if mso]>
+      <noscript>
+        <xml>
+          <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+      </noscript>
+    <![endif]-->
+    <style type="text/css">
+      @media screen {
+        @font-face {
+          font-family: "proxima-nova";
+          src: url("https://assets.uniid.it/fonts/proximanova-regular-webfont.3eb941c94cb8.woff2")
+            format("woff2");
+          font-weight: 400;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        /* Light */
+        @font-face {
+          font-family: "proxima-nova";
+          src: url("https://assets.uniid.it/fonts/proximanova-light-webfont.0495377611c3.woff2")
+            format("woff2");
+          font-weight: 200;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        /* Semi Bold */
+        @font-face {
+          font-family: "proxima-nova";
+          src: url("https://assets.uniid.it/fonts/proximanova-semibold-webfont.f7c2991c51a5.woff2")
+            format("woff2");
+          font-weight: 600;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        /* Bold */
+        @font-face {
+          font-family: "proxima-nova";
+          src: url("https://assets.uniid.it/fonts/proximanova-bold-webfont.2afd678a8b60.woff2")
+            format("woff2");
+          font-weight: 700;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        /* Extra Bold */
+        @font-face {
+          font-family: "proxima-nova";
+          src: url("https://assets.uniid.it/fonts/proximanova-extrabold-webfont.7d7be3987a54.woff2")
+            format("woff2");
+          font-weight: 900;
+          font-style: normal;
+          font-display: swap;
+        }
+      }
+
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 0;
+      }
+      p {
+        font-size: 16px;
+      }
+      img {
+        border: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #3d3d3d;
+        font-size: 16px;
+      }
+      .content {
+        line-height: 20px;
+        font-size: 16px;
+      }
+
+      .ExternalClass {
+        width: 100%;
+      }
+
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+
+      a[x-apple-data-detectors="true"] {
+        color: inherit !important;
+        text-decoration: inherit !important;
+      }
+
+      @media screen and (max-width: 599.98px) {
+      }
+      @media screen and (max-width: 399.98px) {
+      }
+    </style>
+
+    <!--[if mso]>
+      <style type="text/css">
+        body {
+          background-color: #dde0e1 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: font-family:proxima-nova, sans-serif !important;
+        }
+        table {
+          border-spacing: 0 !important;
+          border-collapse: collapse !important;
+        }
+      </style>
+    <![endif]-->
+  </head>
+  <body
+    class="body"
+    xml:lang="en"
+    style="margin: 0; padding: 0; min-width: 100%; background-color: #ebebeb"
+  >
+    <div
+      style="
+        width: 100%;
+        table-layout: fixed;
+        background-color: #ebebeb;
+        color: #111111;
+        font-family: proxima-nova, sans-serif;
+        font-size: 16px;
+        padding: 40px 0;
+      "
+    >
+      <div
+        style="
+          max-width: 600px;
+          background-color: #fafdfe;
+          color: #111111;
+          font-family: proxima-nova, sans-serif;
+          font-size: 16px;
+          margin: 0 auto;
+        "
+      >
+        <div
+          style="
+            font-size: 0px;
+            color: #fafdfe;
+            mso-line-height-rule: exactly;
+            line-height: 0px;
+            display: none;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          This is our preheader text which can be 35-190 characters but 85-100
+          is recommended.
+          &zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;
+        </div>
+
+        <!--[if mso]>
+            <table width="600" align="center" style="border-spacing: 0; border-collapse:collapse; color: #3d3d3d;" role="presentation">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+
+        <table
+          align="center"
+          style="
+            border-spacing: 0;
+            border-collapse: collapse;
+            color: #3d3d3d;
+            font-family: proxima-nova, sans-serif;
+            font-size: 16px;
+            background-color: #fafdfe;
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            max-width: 600px;
+          "
+          role="presentation"
+        >
+          <!-- TOP TEXT -->
+          <tr>
+            <td style="padding: 20px 0 20px; text-align: center">
+              <p
+                style="
+                  font-size: 14px;
+                  line-height: 13px;
+                  text-align: center;
+                  margin: 0;
+                "
+              >
+                <span style="font-size: 11px"
+                  ><a
+                    style="
+                      text-decoration: underline;
+                      color: #111111;
+                      font-size: 11px;
+                    "
+                    href="https://cdn.exponea.com/unisport1/e/.eJyT0swoKSkottLXT07J00utKMjPS03US87P1S_NyywuyC8qMdRP1S_Jz07N02JNSYxPyTZU8DOoSNh609FKmIuptFiIt6QoMa84MbkkMz8vMcdKCSiYLCSTX5SSWhSflp-Tk19eWhCPqoYbqCZXiDU1NzEzJ6qTUV8_KT-lUr8kMSkHaBWEXaRfkgIRiTaKxRTEJoJDNiWzDBeONowFMwv0iwsS8_QTs3iSbKzbfVM6_EwbG4MA33Jjsw.o3JktbZGpA6j_A/click"
+                    target="_blank"
+                    rel="noopener"
+                    >Se denne mail i browser</a
+                  ></span
+                >
+              </p>
+            </td>
+          </tr>
+          <!-- LOGO -->
+          <tr>
+            <td style="padding: 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 14px 0 10px 0; text-align: center">
+                    <a
+                      href="https://cdn.exponea.com/unisport1/e/.eJyTksgoKSkottLXLy8v1yvNyywuyC8q0UvJ1tdiTUmMT8k2VPAzqEjYetPRSpiLqbRYiLekKDGvODG5JDM_LzHHSgkomCwkk1-UkloUn5afk5NfXloQj6qGG6gmV4g1NTcxMydqNaO-flJ-SqV-SWJSTqp-CYRdpF-SAhGJNorFFMQmgkM2JbMMFwYbjam5CCyOzazELJ4kG-t235QOP9PGxiAAegFpwg.UwFwgmlXm63z0A/click"
+                    >
+                      <img
+                        class="unisport-logo"
+                        align="middle"
+                        style="width: 70px"
+                        width="70px"
+                        src="https://s3-eu-west-1.amazonaws.com/unisport-forever-paths/newsletters/CRM/new-logo/150x90-top-logo-newsletter.png"
+                        alt="Unisport logo"
+                      />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- NAVIGATION -->
+          <tr>
+            <td style="padding: 0 0 40px 0">
+              <table
+                class="menu-table"
+                style="width: 100%"
+                align="middle"
+                width="100%"
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+              >
+                <tbody class="menu-body">
+                  <tr valign="middle" class="menu-table-row">
+                    <td class="menu-cell" valign="middle" align="center">
+                      <a
+                        class="header-link"
+                        style="
+                          font-family: proxima-nova, sans-serif;
+                          color: #111111;
+                          font-size: 10px;
+                          mso-line-height-rule: exactly;
+                          line-height: 14px;
+                        "
+                        href="https://cdn.exponea.com/unisport1/e/.eJyT0sgoKSkottLXLy8v1yvNyywuyC8q0UvJ1k_LT0nKz0kpLslPLctJLdLXYk1JjE_JNlTwM6hI2HrT0UqYi6m0WIi3pCgxrzgxuSQzPy8xx0oJKJgsJJNflJJaFJ-Wn5OTX15aEI-qhhuoJleINTU3MTMnah2jvn5SfkqlfkliUk6qfgmEXaRfkgIRiTaKxRTEJoJDNiWzDBcGG42puSjaOBa7WYnRhrFZPEk21u2-KR1-po2NQQCfpHE8.uppvoySHs2TakA/click"
+                      >
+                        <span>FODBOLDSTØVLER</span>
+                      </a>
+                      <span
+                        style="display: inline-block; width: 20px"
+                        class="divider"
+                        >|</span
+                      >
+                      <a
+                        class="header-link"
+                        style="
+                          font-family: proxima-nova, sans-serif;
+                          color: #111111;
+                          font-size: 10px;
+                          mso-line-height-rule: exactly;
+                          line-height: 14px;
+                        "
+                        href="https://cdn.exponea.com/unisport1/e/.eJyTUs8oKSkottLXLy8v1yvNyywuyC8q0UvJ1k_LT0nKz0kpKcpPzUot0tdiTUmMT8k2VPAzqEjYetPRSpiLqbRYiLekKDGvODG5JDM_LzHHSgkomCwkk1-UkloUn5afk5NfXloQj6qGG6gmV4g1NTcxMydqHaO-flJ-SqV-SWJSTqp-CYRdpF-SAhGJNorFFMQmgkM2JbMMFwYbjam5KNo4FrtZiUAdWTxJNtbtvikdfqaNjUEAC0hwww.vahxPjJ8kJkRBA/click"
+                      >
+                        <span>FODBOLDTRØJER</span>
+                      </a>
+                      <span
+                        style="display: inline-block; width: 20px"
+                        class="divider"
+                        >|</span
+                      >
+                      <a
+                        class="header-link"
+                        style="
+                          font-family: proxima-nova, sans-serif;
+                          color: #111111;
+                          font-size: 10px;
+                          mso-line-height-rule: exactly;
+                          line-height: 14px;
+                        "
+                        href="https://cdn.exponea.com/unisport1/e/.eJyTks0oKSkottLXLy8v1yvNyywuyC8q0UvJ1k_KL8rT12JNSYxPyTZU8DOoSNh609FKmIuptFiIt6QoMa84MbkkMz8vMcdKCSiYLCSTX5SSWhSflp-Tk19eWhCPqoYbqCZXiDU1NzEzJ2odoz7Q_JRK_ZLEpJxU_RIIu0i_JAUiEm0UiymITQSHbEpmGS4MNhpTc1G0cSx2sxKBMlk8STbW7b4pHX6mjY1BAPt_bJY.F1jLPW3sFIt7ZA/click"
+                      >
+                        <span>BØRN</span>
+                      </a>
+                      <span
+                        style="display: inline-block; width: 20px"
+                        class="divider"
+                        >|</span
+                      >
+                      <a
+                        class="header-link"
+                        style="
+                          font-family: proxima-nova, sans-serif;
+                          color: #111111;
+                          font-size: 10px;
+                          mso-line-height-rule: exactly;
+                          line-height: 14px;
+                        "
+                        href="https://cdn.exponea.com/unisport1/e/.eJyTks8oKSkottLXLy8v1yvNyywuyC8q0UvJ1i_JzEkqTdHXYk1JjE_JNlTwM6hI2HrT0UqYi6m0WIi3pCgxrzgxuSQzPy8xx0oJKJgsJJNflJJaFJ-Wn5OTX15aEI-qhhuoJleINTU3MTMnah2jvn5SfkqlfkliUk6qfgmEXaRfkgIRiTaKxRTEJoJDNiWzDBcGG42puSjaOBa7WYnRJrFZPEk21u2-KR1-po2NQQD6eG1s.Kh-VjCVWb7d6vg/click"
+                      >
+                        <span>UDSALG</span>
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- BANNER IMAGE -->
+          <tr>
+            <td style="padding: 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tbody>
+                  <tr>
+                    <td style="padding: 14px 0 10px 0; text-align: center">
+                      <a
+                        href="https://dk.trustpilot.com/review/www.unisport.dk?utm_campaign=order_followup_transactional&utm_medium=email&utm_source=transactional"
+                        target="_blank"
+                      >
+                        <img
+                          src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/ae52a6e2-ca6a-4d8e-8944-532f952aae85/35b00f9e-86af-11e9-a859-762d66e4c5d0/Transactional/order_followup/orderfollowuptop_noreview.png"
+                          alt="Image"
+                          width="600"
+                          style="border: 0; width: 100%"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- CONTENT -->
+          <tr>
+            <td>
+              <table
+                class="content"
+                width="100%"
+                style="border-spacing: 0; text-align: center"
+                role="presentation"
+              >
+                <tr>
+                  <td>{{ $content }}</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- BUTTON 1 -->
+          <tr>
+            <td style="padding: 30px 0 10px">
+              <div class="alignment" align="center">
+                <!--[if mso]>
+            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://cdn.exponea.com/unisport1/e/.eJyTMsgoKSkottLXT8nWKykqLS4pyMzJL9FLzs_VL0oty0wt1y8vL9crzcssLsgvKtFLydZiTUmMT8k2VPAzqEjYetPRSpiLqbRYiLekKDGvODG5JDM_LzHHSgkomCwkk1-UkloUn5afk5NfXloQj6qGG6gmV4g1NTcxMyeLJ8nGut03pcPPtLExCADCZDTE.YlfzVU6HYNj36w/click" style="height:46px;width:464px;v-text-anchor:middle;" arcsize="77%" strokeweight="1.5pt" strokecolor="#0CD428" fillcolor="#0CD428">
+            <w:anchorlock/>
+            <v:textbox inset="0px,0px,0px,0px">
+            <center dir="false" style="color:#F2F2F2;font-family: proxima-nova, sans-serif;font-size:16px">
+            <![endif]-->
+                <a
+                  href="https://cdn.exponea.com/unisport1/e/.eJyTMsgoKSkottLXT8nWKykqLS4pyMzJL9FLzs_VL0oty0wt1y8vL9crzcssLsgvKtFLydZiTUmMT8k2VPAzqEjYetPRSpiLqbRYiLekKDGvODG5JDM_LzHHSgkomCwkk1-UkloUn5afk5NfXloQj6qGG6gmV4g1NTcxMycqRF8_KT-lUr8kMSknVb8Ewi7SL0mBiEQbx2IKYlFmGgvlpmSW6Sdm8STZWLf7pnT4mTY2BgEAxmpTlw.GI2Q5TNyuBV5cw/click"
+                  target="_blank"
+                  style="
+                    background-color: #0cd428;
+                    border: 2px solid transparent;
+                    border-radius: 35px;
+                    color: #f2f2f2;
+                    display: block;
+                    font-family: Proxima-nova, sans-serif;
+                    font-size: 16px;
+                    font-weight: undefined;
+                    mso-border-alt: none;
+                    padding: 5px 0;
+                    text-align: center;
+                    text-decoration: none;
+                    width: 80%;
+                    word-break: keep-all;
+                  "
+                >
+                  <span style="word-break: break-word; line-height: 32px"
+                    ><strong>ANMELD PÅ TRUSTPILOT</strong></span
+                  ></a
+                >
+                <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+              </div>
+            </td>
+          </tr>
+          <!-- BUTTON 2 -->
+          <tr>
+            <td style="padding: 10px 0 60px">
+              <div class="alignment" align="center">
+                <!--[if mso]>
+            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://cdn.exponea.com/unisport1/e/.eJyTUs4oKSkottLXLy8v1ysoykxOLSrNy0st0kvJ1i8r0jeyNDE00WJNSYxPyTZU8DOoSNh609FKmIuptFiIt6QoMa84MbkkMz8vMcdKCSiYLCSTX5SSWhSflp-Tk19eWhCPqoYbqCZXiDU1NzEzJ4snyca63Telw8-0sTEIAGojLmY.jVzGFSnYoyyEsg/click" style="height:46px;width:464px;v-text-anchor:middle;" arcsize="77%" strokeweight="1.5pt" strokecolor="#0CD428" fillcolor="#0CD428">
+            <w:anchorlock/>
+            <v:textbox inset="0px,0px,0px,0px">
+            <center dir="false" style="color:#F2F2F2;font-family:Proxima-nova, sans-serif;font-size:16px">
+            <![endif]-->
+                <a
+                  href="https://cdn.exponea.com/unisport1/e/.eJyTUs4oKSkottLXLy8v1ysoykxOLSrNy0st0kvJ1i8r0jeyNDE00WJNSYxPyTZU8DOoSNh609FKmIuptFiIt6QoMa84MbkkMz8vMcdKCSiYLCSTX5SSWhSflp-Tk19eWhCPqoYbqCZXiDU1NzEzJypEXz8pP6VSvyQxKSdVvwTCLtIvSYGIRBvHYgpiUWYWC-WmZJbpJ2bxJNlYt_umdPiZNjYGAQBKk006.Rn534D9oxpy4Sw/click"
+                  target="_blank"
+                  style="
+                    background-color: #0cd428;
+                    border: 2px solid transparent;
+                    border-radius: 35px;
+                    color: #f2f2f2;
+                    display: block;
+                    font-family: Proxima-nova, sans-serif;
+                    font-size: 16px;
+                    font-weight: undefined;
+                    mso-border-alt: none;
+                    padding: 5px 0;
+                    text-align: center;
+                    text-decoration: none;
+                    width: 80%;
+                    word-break: keep-all;
+                  "
+                >
+                  <span style="word-break: break-word; line-height: 32px"
+                    ><strong>ANMELD PÅ PRICERUNNER</strong></span
+                  >
+                </a>
+                <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+              </div>
+            </td>
+          </tr>
+          <!-- TWO COLUMNS CONTENT 1 -->
+          <tr>
+            <td style="padding: 10px 25px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tbody>
+                  <tr>
+                    <td
+                      width="50%"
+                      class="column-wrapper"
+                      style="
+                        padding: 0;
+                        font-size: 0;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    >
+                      <table
+                        class="column column-one-half"
+                        width="100%"
+                        style="
+                          border-spacing: 0;
+                          vertical-align: middle;
+                          width: 100%;
+                        "
+                        role="presentation"
+                      >
+                        <tbody>
+                          <tr>
+                            <td>
+                              <a href="https://www.youtube.com/@unisport"
+                                ><img
+                                  src="https://s3-eu-west-1.amazonaws.com/unisport-forever-paths/email-templates/ParcelLab/youtube.jpg"
+                                  width="100%"
+                                  alt="Image"
+                              /></a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td
+                      class="column-wrapper"
+                      width="50%"
+                      style="
+                        padding: 0;
+                        font-size: 0;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    >
+                      <table
+                        class="column column-one-half"
+                        width="100%"
+                        style="
+                          border-spacing: 0;
+                          vertical-align: middle;
+                          width: 100%;
+                          color: #111111;
+                        "
+                        role="presentation"
+                      >
+                        <tbody>
+                          <tr>
+                            <td class="padding" style="padding: 0 15px">
+                              <p
+                                style="
+                                  font-size: 20px;
+                                  width: 100%;
+                                  text-align: center;
+                                  margin: 0;
+                                "
+                              >
+                                Tænd for underholdningen
+                              </p>
+                              <p
+                                style="
+                                  font-size: 20px;
+                                  width: 100%;
+                                  text-align: center;
+                                  margin: 0;
+                                "
+                              >
+                                Find os på
+                                <a
+                                  href="https://cdn.exponea.com/unisport1/e/.eJyTUswoKSkottLXLy8v16vMLy0pTUrVS87P1XcozcssLsgvKtFiTUmMT8k2VPAzqEjYetPRSpiLqbRYiLekKDGvODG5JDM_LzHHSgkomCwkk1-UkloUn5afk5NfXloQj6qGG6gmV4g1NTcxMycqXl8_KT-lUr8kMSknVb8Ewi7SL0mBiESbxGIKIotEG8XCBMEKUjLLwLhAv7ggMU8_MYsnyca63Telw8-0sTEIAPw8Uas.IyRADS9uh_ffgw/click"
+                                  target="_blank"
+                                  style="
+                                    font-size: 20px;
+                                    text-decoration: underline;
+                                    color: #111111;
+                                  "
+                                  rel="noopener"
+                                  >Youtube</a
+                                >
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- TWO COLUMNS CONTENT 2 -->
+          <tr>
+            <td style="padding: 10px 25px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tbody>
+                  <tr>
+                    <td
+                      class="column-wrapper"
+                      width="50%"
+                      style="
+                        padding: 0;
+                        font-size: 0;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    >
+                      <table
+                        class="column column-one-half"
+                        width="100%"
+                        style="
+                          border-spacing: 0;
+                          vertical-align: middle;
+                          width: 100%;
+                          color: #111111;
+                        "
+                        role="presentation"
+                        dir="ltr"
+                      >
+                        <tbody>
+                          <tr>
+                            <td class="padding" style="padding: 0 15px">
+                              <p
+                                style="
+                                  font-size: 20px;
+                                  width: 100%;
+                                  text-align: center;
+                                  margin: 0;
+                                "
+                              >
+                                Nyd eksklusive fordele
+                              </p>
+                              <p
+                                style="
+                                  font-size: 20px;
+                                  width: 100%;
+                                  text-align: center;
+                                  margin: 0;
+                                "
+                              >
+                                <a
+                                  href="https://cdn.exponea.com/unisport1/e/.eJyTUssoKSkottLXLy8v1yvNyywuyC8q0UvJ1k9MTs4vzSvRz8lPz8zT12JNSYxPyTZU8DOoSNh609FKmIuptFiIt6QoMa84MbkkMz8vMcdKCSiYLCSTX5SSWhSflp-Tk19eWhCPqoYbqCZXiDU1NzEzJypVXz8pP6VSvyQxKSdVvwTCLtIvSYGIRJvGYgoii0QbxsIEwQpSMsvAuCDaKFa_uCAxD6QgMYsnyca63Telw8-0sTEIAIW4VTA.tilKLLVl2mCFtQ/click"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: underline;
+                                    color: #111111;
+                                    font-size: 20px;
+                                  "
+                                  rel="noopener"
+                                >
+                                  Bliv medlem af Unisport FC
+                                </a>
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td
+                      class="column-wrapper"
+                      width="50%"
+                      style="
+                        padding: 0;
+                        font-size: 0;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    >
+                      <table
+                        class="column column-one-half"
+                        width="100%"
+                        style="
+                          border-spacing: 0;
+                          vertical-align: middle;
+                          width: 100%;
+                          max-width: 100%;
+                          color: #111111;
+                        "
+                        role="presentation"
+                      >
+                        <tbody>
+                          <tr>
+                            <td>
+                              <a
+                                href="https://www.unisport.dk/account/login/?utm_source=transactional&utm_campaign=order_followup_transactional&utm_medium=email"
+                                ><img
+                                  src="https://s3-eu-west-1.amazonaws.com/unisport-forever-paths/email-templates/ParcelLab/membership.jpg"
+                                  width="100%"
+                                  alt="Image"
+                              /></a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- TWO COLUMNS CONTENT 3 -->
+          <tr>
+            <td style="padding: 10px 25px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tbody>
+                  <tr>
+                    <td
+                      class="column-wrapper"
+                      width="50%"
+                      style="
+                        padding: 0;
+                        font-size: 0;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    >
+                      <table
+                        class="column column-one-half"
+                        width="100%"
+                        style="
+                          border-spacing: 0;
+                          vertical-align: middle;
+                          width: 100%;
+                        "
+                        role="presentation"
+                      >
+                        <tbody>
+                          <tr>
+                            <td>
+                              <a
+                                href="https://cdn.exponea.com/unisport1/e/.eJyTkskoKSkottLXLy8v1yvNyywuyC8q0UvJ1k9LLNTXYk1JjE_JNlTwM6hI2HrT0UqYi6m0WIi3pCgxrzgxuSQzPy8xx0oJKJgsJJNflJJaFJ-Wn5OTX15aEI-qhhuoJleINTU3MTMnKkJfPyk_pVK_JDEpJ1W_BMIu0i9JgYhEm8ViCiKLRBvGwgTBClIyy8A4MYsnyca63Telw8-0sTEIAMgoTMo.Zb50_cfxlujlMg/click"
+                                ><img
+                                  src="https://s3-eu-west-1.amazonaws.com/unisport-forever-paths/email-templates/ParcelLab/faq.jpg"
+                                  width="100%"
+                                  alt="Image"
+                              /></a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td
+                      class="column-wrapper"
+                      width="50%"
+                      style="
+                        padding: 0;
+                        font-size: 0;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    >
+                      <table
+                        class="column column-one-half"
+                        width="100%"
+                        style="
+                          border-spacing: 0;
+                          vertical-align: middle;
+                          width: 100%;
+                          color: #111111;
+                        "
+                        role="presentation"
+                      >
+                        <tbody>
+                          <tr>
+                            <td class="padding" style="padding: 0 15px">
+                              <p
+                                style="
+                                  font-size: 20px;
+                                  width: 100%;
+                                  text-align: center;
+                                "
+                              >
+                                Har du brug for hjælp? <br />
+                                Gå til vores
+                                <a
+                                  href="https://www.unisport.dk/faq/?utm_source=transactional&utm_campaign=order_followup_transactional&utm_medium=email"
+                                  target="_blank"
+                                  style="
+                                    font-size: 20px;
+                                    text-decoration: underline;
+                                    color: #111111;
+                                  "
+                                  rel="noopener"
+                                  >FAQ</a
+                                >
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- TWO COLUMNS CONTENT 4 -->
+          <tr>
+            <td style="padding: 10px 25px">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tbody>
+                  <tr>
+                    <td
+                      class="column-wrapper"
+                      width="50%"
+                      style="
+                        padding: 0;
+                        font-size: 0;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    >
+                      <table
+                        class="column column-one-half"
+                        width="100%"
+                        style="
+                          border-spacing: 0;
+                          vertical-align: middle;
+                          width: 100%;
+                          color: #111111;
+                        "
+                        role="presentation"
+                      >
+                        <tbody>
+                          <tr>
+                            <td class="padding" style="padding: 0 15px">
+                              <p
+                                style="
+                                  font-size: 20px;
+                                  width: 100%;
+                                  word-break: break-word;
+                                  font-size: 20px;
+                                  margin: 0;
+                                  text-align: center;
+                                  mso-line-height-alt: 16.8px;
+                                "
+                              >
+                                Kom og mød os <br />
+                                Besøg vores
+                                <a
+                                  href="https://cdn.exponea.com/unisport1/e/.eJyTUs8oKSkottLXLy8v1yvNyywuyC8q0UvJ1k9Myi8t0U_LSUwvzsgs0NdiTUmMT8k2VPAzqEjYetPRSpiLqbRYiLekKDGvODG5JDM_LzHHSgkomCwkk1-UkloUn5afk5NfXloQj6qGG6gmV4g1NTcxMycqSV8_KT-lUr8kMSknVb8Ewi7SL0mBiESbx2IKIotEG8bCBMEKUjLLwLgg2ihWv7ggMU8_MYsnyca63Telw8-0sTEIAOU8VKo.t5othkqmOvbQiQ/click"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: underline;
+                                    font-size: 20px;
+                                    color: #000000;
+                                  "
+                                  rel="noopener"
+                                  >butik</a
+                                >
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td
+                      width="50%"
+                      class="column-wrapper"
+                      style="
+                        padding: 0;
+                        font-size: 0;
+                        text-align: center;
+                        width: 50%;
+                      "
+                    >
+                      <table
+                        class="column column-one-half"
+                        width="100%"
+                        style="
+                          border-spacing: 0;
+                          vertical-align: middle;
+                          width: 100%;
+                          color: #111111;
+                        "
+                        role="presentation"
+                      >
+                        <tbody>
+                          <tr>
+                            <td>
+                              <a
+                                href="https://www.unisport.dk/account/login/?utm_source=transactional&utm_campaign=order_followup_transactional&utm_medium=email"
+                                ><img
+                                  src="https://s3-eu-west-1.amazonaws.com/unisport-forever-paths/email-templates/ParcelLab/store.jpg"
+                                  width="100%"
+                                  alt="Image"
+                              /></a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- TEXT BLOCK - ADDRESS -->
+          <tr>
+            <td>
+              <table
+                class="text_block block-1"
+                width="100%"
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                role="presentation"
+                style="
+                  mso-table-lspace: 0;
+                  mso-table-rspace: 0;
+                  word-break: break-word;
+                "
+              >
+                <tbody>
+                  <tr>
+                    <td style="padding: 5px 0px 20px; text-align: center">
+                      <p
+                        style="
+                          margin: 0;
+                          font-size: 14px;
+                          text-align: center;
+                          mso-line-height-alt: 16.8px;
+                        "
+                      >
+                        <span style="word-break: break-word; font-size: 16px"
+                          >Unisport A/S | Baadehavnsgade 38
+                        </span>
+                      </p>
+                      <p
+                        style="
+                          margin: 0;
+                          font-size: 14px;
+                          text-align: center;
+                          mso-line-height-alt: 16.8px;
+                        "
+                      >
+                        <span style="word-break: break-word; font-size: 16px"
+                          >2450 København SV | Danmark</span
+                        >
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- DIVIDER -->
+          <tr>
+            <td style="padding: 10px 0 10px">
+              <table
+                width="100%"
+                style="
+                  border-spacing: 0;
+                  text-align: center;
+                  height: 1px;
+                  border-top: 1px solid #bbb;
+                "
+                role="presentation"
+              >
+                <tr>
+                  <td></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- TEXT BLOCK -->
+          <tr>
+            <td style="padding: 10px 0 10px">
+              <table
+                width="100%"
+                style="border-spacing: 0; text-align: center"
+                role="presentation"
+              >
+                <tbody>
+                  <tr>
+                    <td>
+                      <p style="font-size: 11px">
+                        Vi tager forbehold for stavefejl, ændringer,
+                        prisændringer og udsolgte varer.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- TEXT COPYRIGHT BLOCK -->
+          <tr>
+            <td style="padding: 10px 0">
+              <table
+                width="100%"
+                style="border-spacing: 0; text-align: center"
+                role="presentation"
+              >
+                <tbody>
+                  <tr>
+                    <td>
+                      <p style="font-size: 11px; margin: 0">© Unisport A/S</p>
+                      <p style="font-size: 11px; margin: 0">
+                        Bådehavnsgade 38 | 2450 København SV | Danmark
+                      </p>
+                      <p style="font-size: 11px; margin: 0">
+                        unisport@unisport.dk
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <!-- FOOTER NAVIGATION -->
+          <tr>
+            <td>
+              <table
+                class="footer-nav"
+                width="100%"
+                style="border-spacing: 0; text-align: center"
+                role="presentation"
+              >
+                <tbody>
+                  <tr>
+                    <td style="padding: 15px 0">
+                      <a
+                        href="https://cdn.exponea.com/unisport1/e/token/consent?lang=da_DK&utm_source=transactional&utm_campaign=order_followup_transactional&utm_medium=email"
+                        style="
+                          text-decoration: underline;
+                          color: #111111;
+                          font-size: 11px;
+                        "
+                        >Opdater profil</a
+                      >
+                      <span
+                        style="
+                          display: inline-block;
+                          width: 20px;
+                          color: #111111;
+                          font-size: 11px;
+                        "
+                        class="divider"
+                        >|</span
+                      >
+                      <a
+                        href="https://cdn.exponea.com/unisport1/e/.eJyTcsgoKSkottLXT07J00utKMjPS03US87P1S_NyywuyC8qMdRP1S_Jz07NA4oUlyYVJxdlJqXa5yTmpdumJMa7eGuxAqmUbEMFP4OKhK03Ha2EuZhKi4V4S4oS84oTk0sy8_MSc6yUgILJQjL5RSmpRfFp-Tk5-eWlBfGoariBanKFWFNzEzNzoqYy6usn5adU6pckJuUAXQBhF-mXpEBEoi1jMQWxKDOMxakgJbMs2igWROHEBdEWsfrFBYl5IHMSgaqzeJJsrNt9Uzr8TBsbgwAJynAv.8Ut9GrGEHone9Q/click"
+                        style="
+                          text-decoration: underline;
+                          color: #111111;
+                          font-size: 11px;
+                        "
+                        >Afmeld dig her</a
+                      >
+                      <span
+                        style="
+                          display: inline-block;
+                          width: 20px;
+                          color: #111111;
+                          font-size: 11px;
+                        "
+                        class="divider"
+                        >|</span
+                      >
+                      <a
+                        href="https://www.unisport.dk/privacy/?utm_source=transactional&utm_campaign=order_followup_transactional&utm_medium=email"
+                        style="
+                          text-decoration: underline;
+                          color: #111111;
+                          font-size: 11px;
+                        "
+                        >Privatlivspolitik</a
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </table>
+
+        <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+         <![endif]-->
+      </div>
+    </div>
+  </body>
+</html>
