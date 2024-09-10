@@ -80,6 +80,11 @@
         }
       }
 
+      * {
+        color: #111111;
+        font-family: Proxima-nova, Arial, sans-serif;
+      }
+
       table {
         border-spacing: 0;
         border-collapse: collapse;
@@ -87,16 +92,15 @@
       td {
         padding: 0;
       }
-      p {
-        font-size: 16px;
-      }
       img {
         border: 0;
       }
       a {
         text-decoration: none;
-        color: #3d3d3d;
-        font-size: 16px;
+      }
+      .content a {
+        text-decoration: underline;
+        color: #111111;
       }
 
       /* Outlook fallback */
@@ -277,7 +281,7 @@
                       <img
                         class="unisport-logo"
                         align="middle"
-                        style="width: 70px; height: auto"
+                        style="width: 70px; height: auto; border: 0"
                         width="70px"
                         height="auto"
                         src="https://s3-eu-west-1.amazonaws.com/unisport-forever-paths/newsletters/CRM/new-logo/150x90-top-logo-newsletter.png"
@@ -374,7 +378,7 @@
                           alt="Image"
                           width="600"
                           height="auto"
-                          style="border: 0; width: 100%; height: auto"
+                          style="border: 0; width: 100%; height: auto; border: 0"
                         />
                       </a>
                     </td>
@@ -434,6 +438,9 @@
                       line-height: 32px;
                       mso-line-height-rule: exactly;
                       font-weight: bold;
+                      color: #f2f2f2;
+                      font-family: Proxima-nova, Arial, sans-serif;
+                      font-size: 16px;
                     "
                   >
                     ANMELD PÅ TRUSTPILOT
@@ -479,6 +486,9 @@
                       line-height: 32px;
                       mso-line-height-rule: exactly;
                       font-weight: bold;
+                      color: #f2f2f2;
+                      font-family: Proxima-nova, Arial, sans-serif;
+                      font-size: 16px;
                     "
                   >
                     ANMELD PÅ PRICERUNNER
@@ -490,7 +500,7 @@
           </tr>
           <!-- TWO COLUMNS CONTENT BLOCK 1 -->
           <tr>
-            <td style="padding: 10px 25px">
+            <td style="padding: 10px 10px">
               <table width="100%" style="border-spacing: 0" role="presentation">
                 <tbody>
                   <tr>
@@ -511,9 +521,8 @@
                               <a href="https://www.youtube.com/@unisport">
                                 <img
                                   src="https://s3-eu-west-1.amazonaws.com/unisport-forever-paths/email-templates/ParcelLab/youtube.jpg"
-                                  width="100%"
                                   height="auto"
-                                  style="width: 100%; height: auto"
+                                  style="display: block; width: 100%; height: auto; border: 0"
                                   alt="Image"
                                 />
                               </a>
@@ -525,7 +534,13 @@
                     <td
                       class="column-wrapper"
                       width="50%"
-                      style="padding: 0; font-size: 0; text-align: center; width: 50%"
+                      style="
+                        padding: 0;
+                        font-size: 0;
+                        text-align: center;
+                        width: 50%;
+                        max-width: 50%;
+                      "
                     >
                       <table
                         class="column column-one-half"
@@ -541,42 +556,30 @@
                         <tbody>
                           <tr>
                             <td class="padding" style="padding: 0 15px">
-                              <p
-                                style="
-                                  width: 100%;
-                                  text-align: center;
-                                  margin: 0;
-                                  font-size: 20px;
-                                  color: #111111;
-                                  font-family: Proxima-nova, Arial, sans-serif;
-                                "
-                              >
-                                Tænd for underholdningen
-                              </p>
-                              <p
-                                style="
-                                  width: 100%;
-                                  text-align: center;
-                                  margin: 0;
-                                  font-size: 20px;
-                                  color: #111111;
-                                  font-family: Proxima-nova, Arial, sans-serif;
-                                "
-                              >
-                                Find os på
-                                <a
-                                  href="https://cdn.exponea.com/unisport1/e/.eJyTUswoKSkottLXLy8v16vMLy0pTUrVS87P1XcozcssLsgvKtFiTUmMT8k2VPAzqEjYetPRSpiLqbRYiLekKDGvODG5JDM_LzHHSgkomCwkk1-UkloUn5afk5NfXloQj6qGG6gmV4g1NTcxMycqXl8_KT-lUr8kMSknVb8Ewi7SL0mBiESbxGIKIotEG8XCBMEKUjLLwLhAv7ggMU8_MYsnyca63Telw8-0sTEIAPw8Uas.IyRADS9uh_ffgw/click"
-                                  target="_blank"
+                              <p>
+                                <span
                                   style="
-                                    text-decoration: underline;
+                                    word-break: break-word;
                                     font-size: 20px;
-                                    color: #111111;
                                     font-family: Proxima-nova, Arial, sans-serif;
+                                    color: #111111;
                                   "
-                                  rel="noopener"
                                 >
-                                  Youtube
-                                </a>
+                                  Tænd for underholdningen Find os på
+                                  <a
+                                    href="https://cdn.exponea.com/unisport1/e/.eJyTUswoKSkottLXLy8v16vMLy0pTUrVS87P1XcozcssLsgvKtFiTUmMT8k2VPAzqEjYetPRSpiLqbRYiLekKDGvODG5JDM_LzHHSgkomCwkk1-UkloUn5afk5NfXloQj6qGG6gmV4g1NTcxMycqXl8_KT-lUr8kMSknVb8Ewi7SL0mBiESbxGIKIotEG8XCBMEKUjLLwLhAv7ggMU8_MYsnyca63Telw8-0sTEIAPw8Uas.IyRADS9uh_ffgw/click"
+                                    target="_blank"
+                                    style="
+                                      text-decoration: underline;
+                                      font-size: 20px;
+                                      font-family: Proxima-nova, Arial, sans-serif;
+                                      color: #111111;
+                                    "
+                                    rel="noopener"
+                                  >
+                                    Youtube
+                                  </a>
+                                </span>
                               </p>
                             </td>
                           </tr>
@@ -590,7 +593,7 @@
           </tr>
           <!-- TWO COLUMNS CONTENT BLOCK 2 -->
           <tr>
-            <td style="padding: 10px 25px">
+            <td style="padding: 10px 10px">
               <table width="100%" style="border-spacing: 0" role="presentation">
                 <tbody>
                   <tr>
@@ -614,41 +617,44 @@
                         <tbody>
                           <tr>
                             <td class="padding" style="padding: 0 15px">
-                              <p
-                                style="
-                                  width: 100%;
-                                  text-align: center;
-                                  margin: 0;
-                                  font-size: 20px;
-                                  color: #111111;
-                                  font-family: Proxima-nova, Arial, sans-serif;
-                                "
-                              >
-                                Nyd eksklusive fordele
-                              </p>
-                              <p
-                                style="
-                                  width: 100%;
-                                  text-align: center;
-                                  margin: 0;
-                                  font-size: 20px;
-                                  color: #111111;
-                                  font-family: Proxima-nova, Arial, sans-serif;
-                                "
-                              >
-                                <a
-                                  href="https://cdn.exponea.com/unisport1/e/.eJyTUssoKSkottLXLy8v1yvNyywuyC8q0UvJ1k9MTs4vzSvRz8lPz8zT12JNSYxPyTZU8DOoSNh609FKmIuptFiIt6QoMa84MbkkMz8vMcdKCSiYLCSTX5SSWhSflp-Tk19eWhCPqoYbqCZXiDU1NzEzJypVXz8pP6VSvyQxKSdVvwTCLtIvSYGIRJvGYgoii0QbxsIEwQpSMsvAuCDaKFa_uCAxD6QgMYsnyca63Telw8-0sTEIAIW4VTA.tilKLLVl2mCFtQ/click"
-                                  target="_blank"
+                              <p>
+                                <span
                                   style="
-                                    text-decoration: underline;
-                                    color: #111111;
+                                    width: 100%;
+                                    text-align: center;
+                                    margin: 0;
                                     font-size: 20px;
+                                    color: #111111;
+                                    font-family: Proxima-nova, Arial, sans-serif;
+                                    word-break: break-word;
+                                  "
+                                >
+                                  Nyd eksklusive fordele
+                                </span>
+                                <span
+                                  style="
+                                    width: 100%;
+                                    text-align: center;
+                                    margin: 0;
+                                    font-size: 20px;
+                                    color: #111111;
                                     font-family: Proxima-nova, Arial, sans-serif;
                                   "
-                                  rel="noopener"
                                 >
-                                  Bliv medlem af Unisport FC
-                                </a>
+                                  <a
+                                    href="https://cdn.exponea.com/unisport1/e/.eJyTUssoKSkottLXLy8v1yvNyywuyC8q0UvJ1k9MTs4vzSvRz8lPz8zT12JNSYxPyTZU8DOoSNh609FKmIuptFiIt6QoMa84MbkkMz8vMcdKCSiYLCSTX5SSWhSflp-Tk19eWhCPqoYbqCZXiDU1NzEzJypVXz8pP6VSvyQxKSdVvwTCLtIvSYGIRJvGYgoii0QbxsIEwQpSMsvAuCDaKFa_uCAxD6QgMYsnyca63Telw8-0sTEIAIW4VTA.tilKLLVl2mCFtQ/click"
+                                    target="_blank"
+                                    style="
+                                      text-decoration: underline;
+                                      color: #111111;
+                                      font-size: 20px;
+                                      font-family: Proxima-nova, Arial, sans-serif;
+                                    "
+                                    rel="noopener"
+                                  >
+                                    Bliv medlem af Unisport FC
+                                  </a>
+                                </span>
                               </p>
                             </td>
                           </tr>
@@ -682,7 +688,7 @@
                                   src="https://s3-eu-west-1.amazonaws.com/unisport-forever-paths/email-templates/ParcelLab/membership.jpg"
                                   width="100%"
                                   height="auto"
-                                  style="width: auto; height: auto"
+                                  style="width: 100%; height: auto; border: 0"
                                   alt="Image"
                                 />
                               </a>
@@ -698,7 +704,7 @@
           </tr>
           <!-- TWO COLUMNS CONTENT BLOCK 3 -->
           <tr>
-            <td style="padding: 10px 25px">
+            <td style="padding: 10px 10px">
               <table width="100%" style="border-spacing: 0" role="presentation">
                 <tbody>
                   <tr>
@@ -724,7 +730,7 @@
                                   width="100%"
                                   height="auto"
                                   alt="Image"
-                                  style="width: 100%; height: auto"
+                                  style="width: 100%; height: auto; border: 0"
                                 />
                               </a>
                             </td>
@@ -800,7 +806,7 @@
           </tr>
           <!-- TWO COLUMNS CONTENT BLOCK 4 -->
           <tr>
-            <td style="padding: 10px 25px">
+            <td style="padding: 10px 10px">
               <table width="100%" style="border-spacing: 0" role="presentation">
                 <tbody>
                   <tr>
@@ -892,7 +898,7 @@
                                   width="100%"
                                   height="auto"
                                   alt="Image"
-                                  style="width: 100%; height: auto"
+                                  style="width: 100%; height: auto; border: 0"
                                 />
                               </a>
                             </td>
@@ -984,20 +990,23 @@
           </tr>
           <!-- TEXT BLOCK -->
           <tr>
-            <td style="padding: 10px 0 10px">
+            <td style="padding: 10px">
               <table width="100%" style="border-spacing: 0; text-align: center" role="presentation">
                 <tbody>
                   <tr>
                     <td>
-                      <p
-                        style="
-                          font-size: 11px;
-                          font-family: Proxima-nova, Arial, sans-serif;
-                          color: #111111;
-                        "
-                      >
-                        Vi tager forbehold for stavefejl, ændringer, prisændringer og udsolgte
-                        varer.
+                      <p>
+                        <span
+                          style="
+                            font-size: 11px;
+                            font-family: Proxima-nova, Arial, sans-serif;
+                            color: #111111;
+                            word-break: break-word;
+                          "
+                        >
+                          Vi tager forbehold for stavefejl, ændringer, prisændringer og udsolgte
+                          varer.
+                        </span>
                       </p>
                     </td>
                   </tr>
@@ -1022,16 +1031,18 @@
                       >
                         © Unisport A/S
                       </p>
-                      <p
+                      <address
                         style="
                           margin: 0;
                           font-size: 11px;
                           font-family: Proxima-nova, Arial, sans-serif;
                           color: #111111;
+                          font-style: normal;
+                          text-decoration: none;
                         "
                       >
                         Bådehavnsgade 38 | 2450 København SV | Danmark
-                      </p>
+                      </address>
                       <p
                         style="
                           margin: 0;
